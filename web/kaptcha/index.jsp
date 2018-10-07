@@ -11,8 +11,8 @@
     <title>Kaptcha Demo</title>
 </head>
 <body>
-<form action="submit.action">
-    <input type="text" name="kaptcha" value="">
+<form action="">
+    <input type="text" name="kaptcha" value="" maxlength="5">
     <image src="http://localhost:8080/VerificationCode/kaptcha.jpg"></image>
 </form>
 </body>
